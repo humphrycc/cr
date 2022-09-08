@@ -1,3 +1,4 @@
 get /sample(/\S*)? sample.lua
 get /hello hello.lua
 get /403-normal(/\S*)? 403-normal.lua
+get /404-normal(/\S*)? 404-normal.lua

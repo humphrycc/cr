@@ -1,1 +1,2 @@
 get /sample(/\S*)? sample.lua
+get /hello hello.lua

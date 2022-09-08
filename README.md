@@ -7,6 +7,8 @@ Quick Start
 2. 修改 `handler.toc`，支持正则表达式匹配URL
 3. pull到github之后，访问 `http://cr.revoluette.com/sync` ，同步变更
 
+`handler.toc`中添加的path都是`http://cr.revoluette.com`后面的。
+
 handler支持功能可以参考`sample.lua`。 
 
 # `handler.toc`

@@ -1,7 +1,7 @@
 local resp = string.format(
     "method=%s \npath=%s \nua=%s \nqs=%s \nraw_query=%s\n",
     get_request_method(),
-    get_request_path("User-Agent"),
+    get_request_path(),
     get_request_header("User-Agent"),
     get_request_query("qs"),
     get_request_raw_query()

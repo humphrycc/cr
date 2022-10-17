@@ -3,3 +3,4 @@ get /hello hello.lua
 get /403-normal(/\S*)? 403-normal.lua
 get /404-normal(/\S*)? 404-normal.lua
 get /cdn-auth cai-test-cdn-auth.lua
+get /20221017(/\S*)? 20221017.lua
